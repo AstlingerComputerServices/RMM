@@ -29,7 +29,7 @@ if(Test-Path env:\PeriodHoursCheck) {
 $Global:result
 $Global:AEM_Exit = $true
 
-$CustomField = 1
+$CustomField = $Env:CustomField
 $Backup = ""
 $Backup_found = 0
 $result_ok = "BACKUPS="
